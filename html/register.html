@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <!-- Links for styles -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="register-form w-75 m-auto p-5 text-center  mt-5">
+            <h1>Register Your Account</h1>
+            <input type="text"  id="nameRg" class="form-control text-light bg-transparent w-75 m-auto mt-5" placeholder="Enter your name">
+            <input type="email"  id="emailRg" class="form-control text-light bg-transparent w-75 m-auto mt-3" placeholder="Enter your email">
+            <input type="password"  id="passwordRg" class="form-control text-light bg-transparent w-75 m-auto mt-3 mb-4" placeholder="Enter a password">
+            <p class="text-danger d-none" id="emptyFields">All fields are requierd</p>
+            <p class="text-success d-none" id="correctData">Success!</p>
+            <button class="btn btn-info w-75 bg-transparent" onclick="register()">Sign Up</button>
+            <p class="text-light mt-3">You have an account? <a href="login.html" class="text-decoration-none text-sucess lead text-info">Signin</a></p>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
